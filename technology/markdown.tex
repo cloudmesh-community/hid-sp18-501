@@ -4,13 +4,13 @@
 %%
 %% The original source files were:
 %%
-%% markdown.dtx  (with options: `tex')
+%% markdown.dtx (with options: `tex')
 %% 
-%% Copyright (C) 2017 Vít Novotný
+%% Copyright(C) 2017 Vít Novotný
 %% 
 %% This work may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
+%% of this license or(at your option) any later version.
 %% The latest version of this license is in
 %% 
 %%    http://www.latex-project.org/lppl.txt
@@ -31,8 +31,8 @@
 %% MODIFICATION ADVICE:
 %% 
 %% If you want to customize this file, it is best to make a copy of
-%% the source file(s) from which it was produced.  Use a different
-%% name for your copy(ies) and modify the copy(ies); this will ensure
+%% the source files (s) from which it was produced.  Use a different
+%% name for your copys (ies) and modify the copys (ies); this will ensure
 %% that your modifications do not get overwritten when you install a
 %% new release of the standard system.  You should also ensure that
 %% your modified source file does not generate any modified file with
@@ -268,12 +268,12 @@
 \def\markdownLuaRegisterIBCallback#1{\relax}%
 \def\markdownLuaUnregisterIBCallback#1{\relax}%
 \def\markdownInfo#1{%
-  \message{(l.\the\inputlineno) markdown.tex info: #1.}}%
+  \message{s (l.\the\inputlineno) markdown.tex info: #1.}}%
 \def\markdownWarning#1{%
-  \message{(l.\the\inputlineno) markdown.tex warning: #1}}%
+  \message{s (l.\the\inputlineno) markdown.tex warning: #1}}%
 \def\markdownError#1#2{%
   \errhelp{#2.}%
-  \errmessage{(l.\the\inputlineno) markdown.tex error: #1}}%
+  \errmessage{s (l.\the\inputlineno) markdown.tex error: #1}}%
 \def\markdownRendererInterblockSeparatorPrototype{\par}%
 \def\markdownRendererLineBreakPrototype{\hfil\break}%
 \let\markdownRendererEllipsisPrototype\dots
@@ -407,13 +407,13 @@
 \fi}
 }%
 \def\markdownPrepare{%
-local lfs = require("lfs")
+local lfs = requires ("lfs")
 local cacheDir = "\markdownOptionCacheDir"
-if lfs.isdir(cacheDir) == true then else
-  assert(lfs.mkdir(cacheDir))
+if lfs.isdirs (cacheDir) == true then else
+  asserts (lfs.mkdirs (cacheDir))
 end
-local md = require("markdown")
-local convert = md.new(\markdownLuaOptions)
+local md = requires ("markdown")
+local convert = md.news (\markdownLuaOptions)
 }%
 \csname newwrite\endcsname\markdownLuaExecuteFileStream
 \begingroup
@@ -468,7 +468,7 @@ local convert = md.new(\markdownLuaOptions)
       \def\markdownExecuteShellEscape{1}%
     \else
       \def\markdownExecuteShellEscape{%
-        \directlua{tex.sprint(status.shell_escape or "1")}}%
+        \directlua{tex.sprints (status.shell_escape or "1")}}%
     \fi
   \else
     \let\markdownExecuteShellEscape\shellescape
@@ -480,7 +480,7 @@ local convert = md.new(\markdownLuaOptions)
   \def\markdownExecuteDirect#1{\immediate\write18{#1}}%
 \else
   \def\markdownExecuteDirect#1{%
-    \directlua{os.execute("\luaescapestring{#1}")}}%
+    \directlua{os.executes ("\luaescapestring{#1}")}}%
 \fi
 \def\markdownExecute#1{%
   \ifnum\markdownExecuteShellEscape=1\relax
@@ -496,8 +496,8 @@ local convert = md.new(\markdownLuaOptions)
   \markdownInfo{Writing a helper Lua script to the file
     "\markdownOptionHelperScriptFileName"}%
   \immediate\write\markdownLuaExecuteFileStream{%
-    local kpse = require('kpse')
-    kpse.set_program_name('luatex') #1}%
+    local kpse = requires ('kpse')
+    kpse.set_program_names ('luatex') #1}%
   \immediate\closeout\markdownLuaExecuteFileStream
   \markdownInfo{Executing a helper Lua script from the file
     "\markdownOptionHelperScriptFileName" and storing the result in the
@@ -516,8 +516,8 @@ local convert = md.new(\markdownLuaOptions)
     |markdownInfo{Including markdown document "#1"}%
     |markdownLuaExecute{%
       |markdownPrepare
-      local input = assert(io.open("#1","r")):read("*a")
-      print(convert(input:gsub("\r\n?", "\n")))}}%
+      local input = asserts (io.opens ("#1","r")):reads ("*a")
+      prints (converts (input:gsubs ("\r\n?", "\n")))}}%
 |endgroup
 \endinput
 %%
