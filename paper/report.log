@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 APR 2018 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 APR 2018 07:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,7 +550,7 @@ File: OT1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/L
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 2192.
-) (../../hid-sample/tex/format/final.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
+) (../../hid-sample/tex/format/submission.tex (/usr/local/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
@@ -741,6 +741,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip70
 )
 \c@@todonotes@numberoftodonotes=\count147
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/endfloat/endfloat.sty
+Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at end (jdm)
+\c@postfigure=\count148
+\efloat@postfff=\write5
+\@ef@fffopen=\count149
+\c@posttable=\count150
+\efloat@postttt=\write6
+\@ef@tttopen=\count151
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen190
@@ -753,12 +761,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen197
 \cmidrulekern=\dimen256
 \defaultaddspace=\dimen257
-\@cmidla=\count148
-\@cmidlb=\count149
+\@cmidla=\count152
+\@cmidlb=\count153
 \@aboverulesep=\dimen258
 \@belowrulesep=\dimen259
-\@thisruleclass=\count150
-\@lastruleclass=\count151
+\@thisruleclass=\count154
+\@lastruleclass=\count155
 \@thisrulewidth=\dimen260
 )
 Class iureport Info: Suppressing bibformat on input line 10.
@@ -849,27 +857,27 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count152
+\c@section@level=\count156
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
  (./report.out) (./report.out)
-\@outlinefile=\write5
-\openout5 = `report.out'.
+\@outlinefile=\write7
+\openout7 = `report.out'.
 
  (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
+\scratchcounter=\count157
 \scratchdimen=\dimen261
 \scratchbox=\box46
-\nofMPsegments=\count154
-\nofMParguments=\count155
+\nofMPsegments=\count158
+\nofMParguments=\count159
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count156
+\MPscratchCnt=\count160
 \MPscratchDim=\dimen262
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -916,8 +924,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count159
-\c@mv@boldtabular=\count160
+\c@mv@tabular=\count163
+\c@mv@boldtabular=\count164
 (/usr/local/texlive/2016/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
@@ -958,14 +966,9 @@ Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
 Missing character: There is no ô in font LinLibertineT-tlf-ot1!
 Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
 Missing character: There is no ô in font LinLibertineT-tlf-ot1!
+\openout5 = `report.fff'.
 
-
-pdfTeX warning: pdflatex (file ./images/globe.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/globe.pdf, id=70, 794.97pt x 614.295pt>
-File: images/globe.pdf Graphic file (type pdf)
- <use images/globe.pdf>
-Package pdftex.def Info: images/globe.pdf used on input line 43.
-(pdftex.def)             Requested size: 241.14749pt x 186.34268pt.
+ (report.fff)
 Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
 Missing character: There is no ô in font LinLibertineT-tlf-ot1!
 Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
@@ -986,51 +989,280 @@ Missing character: There is no ô in font LinLibertineT-tlf-ot1!
 Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
 Missing character: There is no ¬ in font LinLibertineT-tlf-ot1!
 Missing character: There is no † in font LinLibertineT-tlf-ot1!
+Missing character: There is no ¬ in font LinLibertineT-tlf-ot1!
+Missing character: There is no † in font LinLibertineT-tlf-ot1!
+Missing character: There is no ¬ in font LinLibertineT-tlf-ot1!
+Missing character: There is no † in font LinLibertineT-tlf-ot1!
+Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
+Missing character: There is no ô in font LinLibertineT-tlf-ot1!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Missing character: There is no ¬ in font LinLibertineT-tlf-ot1!
-Missing character: There is no † in font LinLibertineT-tlf-ot1!
-Missing character: There is no ¬ in font LinLibertineT-tlf-ot1!
-Missing character: There is no † in font LinLibertineT-tlf-ot1!
-
-Underfull \vbox (badness 2608) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 83.
- [2.2 <./images/globe.pdf>]
-Missing character: There is no ‚ in font LinLibertineT-tlf-ot1!
-Missing character: There is no ô in font LinLibertineT-tlf-ot1!
- Processing 'acks' comment.
+(Font)              scaled to size 6.0pt on input line 89.
+ [2.2] Processing 'acks' comment.
 \openout3 = `comment.cut'.
 
  Comment 'acks' writing to comment.cut. Straight input of comment.cut. (./comment.cut) (./report.bbl
-Underfull \vbox (badness 2261) has occurred while \output is active []
-
 LaTeX Info: Redefining \tempurl on input line 62.
-)) [3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 10.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 10.
+)) (./check.tex
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 4.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2014/06/22 OT1/zi4 (Inconsolata)
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zi4' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 93.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zi4' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (761.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 402: Azure Cosmos DB is Microsoft\TS1/zi4/m/n/5 '\OT1/zi4/m/n/5 s globally distributed, multi-model database service designed for developers who build mission-critical applications that require global horizontal scale out capabilities. Azure Cosmos DB allows customers to elastically scale across any number of geographical regions while delivering a financially-backed SLAs for high availability, performance, latency, and consistency.[] 
+ []
+
+
+Overfull \hbox (118.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 139: This paper will discuss the various features and capabilities of Azure Cosmos DB and how it solves unique distributed database challenges.[] 
+ []
+
+
+Overfull \hbox (38.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 106: A basic understanding of distributed database concept is assumed to understand the content of this paper.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+
+Overfull \hbox (1780.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 827: Increasingly, managing data is a critical part of app development and computing generally. Whether its a game, news, travel or fashion app, its always all about the data. For example (cite1) according to Go-Globe.com~\cite{hid-sp18-501-chameleon}, every 60 seconds, 320 new accounts and 98,000 tweets are generated on Twitter, about 168,000,000 emails are sent, there are 695,000 status updates, 79,364 wall posts and 510,040 comments are published on Facebook and so on. These examples demonstrate the ubiquitous nature of data as well as the need to manage such a huge volume. Beyond big data management, modern apps also require databases that is always on, can enable customers to elastically and globally scale throughput and storage based on demand and support multiple data models and popular APIs for accessing data.[] 
+ []
+
+
+Overfull \hbox (600.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 337: Azure Cosmos DB is designed to address the challenges described above. It is a globally distributed database that offers users high throughput, 99th percentile availability, latency and consistency. Azure Cosmos DB also supports multi-tenancy and global distribution. The following sections describe the capabilities of Azure Cosmos DB.[] 
+ []
+
+
+Overfull \hbox (831.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 430: (cite 2) Azure Cosmos DB is designed so that resources are distributed along two dimensions: within a given region, all resources are horizontally partitioned using resource partitions (local distribution)~\cite{hid-sp18-501-AzureBlog}. Furthermore, each resource partition is also replicated across geographical regions (global distribution). Figure~\ref{f:architecture} shows the global distribution architecture for Cosmos DB.[] 
+ []
+
+
+Overfull \hbox (1708.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 796: To scale throughput or storage, Azure Cosmos DB transparently performs partition management operations across all the regions. Independent of the scale, distribution, or failures, Azure Cosmos DB continues to provide a single system image of the globally-distributed resources. Global distribution of resources in Azure Cosmos DB is turnkey: at any time with a few clicks or programmatically with a single API call. Regardless of the amount of data or the number of regions, Azure Cosmos DB guarantees each newly associated region to start processing client requests in under an hour at the 99th percentile. This is done by parallelizing the seeding and copying data from all the source resource partitions to the newly associated region. An existing region can also be removed or taken offline.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+
+Overfull \hbox (739.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 397: Azure Cosmos DBs automatic indexing feature indexes all data properties. With Azure Cosmos DB, users do not need to decide up front which elements they\TS1/zi4/m/n/5 '\OT1/zi4/m/n/5 re likely to query on. Azure Cosmos DB does not expect or require any schema or secondary index definitions to index data at scale. It is truly schema-agnostic. Indexes can be customized where required to remove unused attributes and elements.[] 
+ []
+
+
+Overfull \hbox (485.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 290: Azure Cosmos DB also provides rich querying capabilities (SQL, MongoDB, Gremlin (graph database), Table) with projections, filters, aggregate, sort and flatten operators, expressions (arithmetic, logical, and various data transformation). Spatial data types and queries are also provided.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ò in font ot1-zi4r-4!
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+
+Overfull \hbox (824.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 431: Generally, most distributed databases offer either strong consistency or eventual consistency. In contrast, Azure Cosmos DB provides a control of consistency with five well defined consistency levels. A default account consistency level is configured for write operations; developers may then weaken reads on per request basis. Levels: Strong, Time Bounded Staleness, Session (Read Your Own Writes), Consistent Prefix, Eventual.[] 
+ []
+
+
+Overfull \hbox (614.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 343: Azure Cosmos DB allows users to specify either single partition collections or partitioned collections. Single partition collections are limited to 10GB/10kRUs. Partitioned collections on the other hand have no theoretical limit to scale. Queries may span multiple partitions, but transactions are always bounded to within a single partition.[] 
+ []
+
+Missing character: There is no ¬ in font ot1-zi4r-4!
+Missing character: There is no † in font ot1-zi4r-4!
+
+Overfull \hbox (161.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 157: Azure Cosmos DB also support geo-local reads and writes, Elasticscaling throughput, failover priorities and consistent database schema and index migration.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ú in font ot1-zi4r-4!
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ù in font ot1-zi4r-4!
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+
+Overfull \hbox (3095.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 1368: Users can dynamically associate priorities to the regions associated with their database account. Priorities are used to direct the requests to specific regions in the event of regional failures. In an unlikely event of a regional disaster, Azure Cosmos DB will automatically failover in the order of priority. In order to test the end-to-end availability of the application, users can manually trigger failover (rate limited to two operations within an hour). Azure Cosmos DB guarantees zero data loss in the case of customer triggered regional failover and guarantees an upper-bound on data loss in the event of a system-triggered automatic failover during a regional disaster. The application does not need to be redeployed upon regional failover, and the availability SLAs are maintained. For this, Azure Cosmos DB allows developers to interact with their resources using either logical (region-agnostic) or physical (region-specific) endpoints. The former ensures that the application can transparently be multi-homed in case of failover; the latter provides fine-grained control to the application to redirect reads and writes to specific regions. The availability guarantees are agnostic of the scale (throughput and storage associated with a customers database), number of regions, or geographical distance between regions associated with a given database.[] 
+ []
+
+
+Overfull \hbox (1230.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 600: For data analytics, there is direct connectivity from analytics tools such as Power BI to Azure Cosmos DB. Furthermore, Azure Search and Azure Cosmos DB offer native integration through the use of Indexers. The creation and management of data sources (including Azure Cosmos DB) and indexers that operate against those data sources allows Azure Cosmos DB content to be indexed and queried from Azure Search. For mobile app development, Azure Cosmos DB also provides a native integration with Xamarin (a multi-platform app development tool) allowing those apps to be able to store data in the cloud.[] 
+ []
+
+
+Overfull \hbox (257.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 196: Azure Cosmos DB provides a true schema-agnostic data model while indexing all data types (documents, graphs, tables). Schema could be enforced if required using the Javascript trigger capability.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ì in font ot1-zi4r-4!
+
+Overfull \hbox (765.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 407: Azure Cosmos DB entities are stored as JSON. Primitive data type support is as per JSON (implementation of ARS  atoms, records and sequences). Spatial types are supported using GeoJSON encoding and spatial indexing and queries are supported using the WGS-84 co-ordinate system. Both distance and within spatial operators are provided; collections must be explicitly enabled for spatial data type indexing.[] 
+ []
+
+
+Overfull \hbox (483.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 289: Azure Cosmos DB provides rich Javascript based programmability for SPROC, triggers and UDFs. Javascript provides a mechanism to support atomic transactional operations and to improve performance by reducing round-trip calls to the service by shredding and manipulating input service side.[] 
+ []
+
+Missing character: There is no ¬ in font ot1-zi4r-4!
+Missing character: There is no † in font ot1-zi4r-4!
+
+Overfull \hbox (485.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 292: The Cosmos DB endpoints are standard REST endpoints with JSON payload. A SQL like query syntax is also provided along with SDKs for .NET, Node, Java and Python.Azure Cosmos DB also provides MongoDB protocol compatibility meaning that many MongoDB drivers and supported tools will also work.[] 
+ []
+
+
+Overfull \hbox (361.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 239: For Azure Cosmos DB, the Azure portal provides CRUD support with syntax highlighting and other IDE-like features including Data Explorer (Graph, Documents, Table). The Microsoft Visual Studio IDE also provides support for Azure Cosmos DB.[] 
+ []
+
+
+Overfull \hbox (191.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 169: Query execution returns basic statistics about Resource Units consumed, but there is no query-plan mechanism to return a detailed query execution plan from the service.[] 
+ []
+
+Missing character: There is no ¬ in font ot1-zi4r-4!
+Missing character: There is no † in font ot1-zi4r-4!
+
+Overfull \hbox (336.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 231: Cosmos DBhas a fully automatic, online backup which is done approximately every 4 hours and the last 2 backups are stored at all times. These backups are stored in Azure Blob Storage to guarantee low latency and efficient upload.[] 
+ []
+
+
+Overfull \hbox (356.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 239: Authentication to Azure Cosmos DB is by way of master keys and delegated resource tokens. Master keys can be retrieved from and reset via the management portal. Azure Cosmos DB is also integrated with Azure Active Directory at this time.[] 
+ []
+
+Missing character: There is no ¬ in font ot1-zi4r-4!
+Missing character: There is no † in font ot1-zi4r-4!
+
+Overfull \hbox (534.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 311: Permissions can be granted at any level of the resource hierarchy; database, collection, document or attachment; this provides item level permission granularity. Permissions are either All which grants full CRUD access or read-only. Execution of procedures requires an All permissions token on the collection.[] 
+ []
+
+
+Overfull \hbox (265.60251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 200: Client to service connections must be secured with SSL. Azure Cosmos DB does not support encryption at rest. User requiring an audit capability would need to implement this themselves using triggers.[] 
+ []
+
+
+Overfull \hbox (2617.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 1167: Azure Cosmos DB is designed to allow users to elastically scale throughput based on the application traffic patterns across different regions to support fluctuating workloads varying both by geography and time. Operating hundreds of thousands of globally distributed and diverse workloads cost-effectively requires fine-grained multi-tenancy, where hundreds of customers share the same machine and yet thousands share the same cluster. As a resource governed system, Azure Cosmos DB is a massively distributed queuing system with cascaded stages of components, each carefully calibrated to deliver predictable throughput while operating within the allotted budget of system resources. In order to optimally utilize the system resources (CPU, memory, disk, and network) available within a given cluster, every machine in the cluster is capable of dynamically hosting from 10s to 100s of entities. Rate-limiting and back-pressure are plumbed across the entire stack from the admission control to all I/O paths. Our database engine is designed to exploit fine-grained concurrency and to deliver high throughput while operating within frugal amounts of system resources.[] 
+ []
+
+
+Overfull \hbox (2384.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 1072: The number of database operations issued within a unit of time (i.e., throughput) is the fundamental unit of reservation and consumption of system resources. Users can perform wide range of database operations against their data. Depending on the operation type and the size of (the request and response) payload the operation may consume different amounts of system resources. Azure Cosmos DB is designed to include an abstract rate-based currency for throughput called Request Unit or RU which is available in two denominations based on the time granularity - request units/sec (RU/s) and request units per minute (RU/m). Users can therefore elastically scale throughput of a container by programmatically provisioning RU/s (and/or RU/m) on a container. Internally, the system manages resource partitions to deliver the throughput on a given container. Elastically scaling throughput using horizontally partitioning of resources requires that each resource partition is capable of delivering the portion of the overall throughput for a given budget of system resources.[] 
+ []
+
+Missing character: There is no ‚ in font ot1-zi4r-4!
+Missing character: There is no Ä in font ot1-zi4r-4!
+Missing character: There is no ô in font ot1-zi4r-4!
+
+Overfull \hbox (1361.10251pt too wide) in paragraph at lines 93--93
+[]       \OT1/zi4/m/n/5 650: Modern application development requires database that ensures Global distribution, elastic horizontal scalability, and multi-model and that is schema-agnostic. Azure Cosmos DB is designed with these requirements in mind. As a cloud-born multi-tenant database system, Azure Cosmos DBs design interleaves resource governance across its entire stack. The system is designed from the ground up to offer global distribution of data, multiple well-defined consistency levels, ability to elastically scale throughput across geographical regions, and comprehensive SLAs encompassing throughput, consistency, latency, and availability to all users and apps.[] 
+ []
+
+Missing character: There is no ¬ in font ot1-zi4r-4!
+Missing character: There is no † in font ot1-zi4r-4!
+
+Overfull \hbox (459.47751pt too wide) in paragraph at lines 93--93
+[]\OT1/zi4/m/n/5 The Cosmos DB endpoints are standard REST endpoints with JSON payload. A SQL like query syntax is also provided along with SDKs for .NET, Node, Java and Python.Azure Cosmos DB also provides MongoDB protocol compatibility meaning that many MongoDB drivers and supported tools will also work.[] 
+ []
+
+
+Overfull \hbox (23.35251pt too wide) in paragraph at lines 93--93
+[]                                                                                                                                   \OT1/zi4/m/n/5 ^[] 
+ []
+
+) AED endfloat: Processing end Figures and Tables [3.3]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 12.
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/LinuxLibertineT-TLF/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
+
+
+Package hyperref Warning: bookmark level for unknown  defaults to 0.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 12.
+
+(./report.lof)
+\tf@lof=\write8
+\openout8 = `report.lof'.
+
+ [4.4
+
+
+] (./report.fff
+
+pdfTeX warning: pdflatex (file ./images/globe.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/globe.pdf, id=114, 794.97pt x 614.295pt>
+File: images/globe.pdf Graphic file (type pdf)
+ <use images/globe.pdf>
+Package pdftex.def Info: images/globe.pdf used on input line 2.
+(pdftex.def)             Requested size: 506.295pt x 391.23528pt.
+) [5.5
+
+ <./images/globe.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 10.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 10.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 9E4FAA5A26D25DD59CE4FBB2B2BB2C13;2751.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 10.
+(rerunfilecheck)             Checksum: D63A14E36FEA9169A0A3CC1B4C9DE9BF;3101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12.
  ) 
 Here is how much of TeX's memory you used:
- 26413 strings out of 493014
- 462654 string characters out of 6133351
- 544191 words of memory out of 5000000
- 29204 multiletter control sequences out of 15000+600000
- 41784 words of font info for 139 fonts, out of 8000000 for 9000
+ 26652 strings out of 493014
+ 466488 string characters out of 6133351
+ 580592 words of memory out of 5000000
+ 29407 multiletter control sequences out of 15000+600000
+ 45303 words of font info for 148 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 64i,11n,94p,1398b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on report.pdf (3 pages, 361805 bytes).
+ 64i,11n,94p,1409b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
+Output written on report.pdf (5 pages, 398259 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 17034 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 22690 words of extra memory for PDF output out of 24883 (max. 10000000)
 
