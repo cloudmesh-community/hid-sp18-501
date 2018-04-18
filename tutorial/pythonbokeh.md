@@ -11,11 +11,18 @@ that produce a JSON file which then presents data to the modern browser
 In this tutorial, we will go through how to use python scripts to produce
 different charts in Bokeh.
 
-The content is in 
+To use Bokeh, please follow this link to install https://bokeh.pydata.org/en/latest/
 
-    content.tex 
-    
-which you may edit, The template is in
+Creating Charts with Bokeh
+============= 
+
+The following steps are required to create a chart with Bokeh:
+
+1. Import the function for the kind of chart you want to create
+
+2. Prepare the data
+
+
 
     report.tex
 
