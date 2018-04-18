@@ -1,9 +1,11 @@
 Visualization Using Python Bokeh
 =============
 
-This directory contains a template that will be used for writing
-reports. It is important that you do not modify the template so all
-students have the same format template.
+Python Bokeh is an interactive visulaization library that
+targets modern web browsers for visualization.
+
+Bokeh works by allowing multiple language bindings (e.g. Python or R)
+that produce a JSON file which then presents data to the modern browser
 
 To make it simple we split the content and the format into two
 different files.
