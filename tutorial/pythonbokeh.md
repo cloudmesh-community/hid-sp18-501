@@ -21,7 +21,6 @@ The following steps are required to create a chart with Bokeh:
 
 1. Import the function for the kind of chart you want to create
 
-
 2. Prepare the data
 
 3. Set the output mode for the chart
@@ -57,7 +56,7 @@ Step 5: Visualize the chart
     #print chart
     show(p)
     hid-sp18-501/paper/images/bar.JPG
-    ![Bar Chart](https://github.com/cloudmesh-community/hid-sp18-501/paper/images/bar.JPG)
+    ![Chart](https://github.com/cloudmesh-community/hid-sp18-501/paper/images/bar.JPG)
     
     
 
