@@ -1,14 +1,15 @@
-Visualization Using Python Bokeh
+Visualization Using Bokeh
 =============
 
-Python Bokeh is an interactive visulaization library that
-targets modern web browsers for visualization.
+Bokeh is an interactive visulaization library that
+targets modern web browsers for visualization~\cite{hid-sp18-501-bokeh}.
 
 Bokeh works by allowing multiple language bindings (e.g. Python or R)
 that produce a JSON file which then presents data to the modern browser
+~\cite{hid-sp18-501-vidhya}
 
-To make it simple we split the content and the format into two
-different files.
+In this tutorial, we will go through how to use python scripts to produce
+different charts in Bokeh.
 
 The content is in 
 
