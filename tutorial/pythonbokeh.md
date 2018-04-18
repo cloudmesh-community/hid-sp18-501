@@ -1,3 +1,4 @@
+
 Visualization Using Bokeh
 =============
 
@@ -22,9 +23,16 @@ The following steps are required to create a chart with Bokeh:
 
 2. Prepare the data
 
+3. Set the output mode for the chart
 
+4. Create the chart styling
 
-    report.tex
+5. Create the chart visualization.
+
+Please, follow the pyhton codes below to generate a chart using Bokeh:
+
+    #Import library
+     from bokeh.charts import Bar, output_file, show #use output_notebook to visualize it in notebookreport.tex
 
 which you are not allowed to edit.
 
