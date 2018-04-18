@@ -57,7 +57,7 @@ Step 5: Visualize the chart
     #print chart
     show(p)
     hid-sp18-501/paper/images/bar.JPG
-    
+    [this text](https://github.com/cloudmesh-community/hid-sp18-501/paper/images/bar.JPG)
     
     
 
