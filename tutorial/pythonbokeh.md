@@ -1,4 +1,4 @@
-Report format
+Visualization Using Python Bokeh
 =============
 
 This directory contains a template that will be used for writing
