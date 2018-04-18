@@ -31,19 +31,29 @@ The following steps are required to create a chart with Bokeh:
 
 Please, follow the pyhton codes below to generate a chart using Bokeh:
 
-    #Step 1: Import library
+Step 1: Import the function(s)
+
+    #import library
      from bokeh.charts import Bar, output_file, show #use output_notebook to visualize it in notebookreport.tex
 
-    #Step 2: Prepare data (dummy data)
+Step 2: Prepare the data
+
+    #Prepare data (dummy data)
     data = {"y": [1, 2, 3, 4, 5]}
     
-    #Step 3: Set Output mode (In this case as HTML)
+Step 3: Set Output mode (In this case as HTML)
+ 
+    #Output to Line.HTML
     output_file("lines.html", title="line plot example") #put output_notebook() for notebook
     
-    #Step 4: Create Chart Styling
+Step 4: Create the Chart Styling
+
+    #create a new line chat with a title and axis labels
     p = Bar(data, title="Line Chart Example", xlabel='x', ylabel='values', width=400, height=400)
+
+Step 5: Visualize the chart
     
-    #Step 5: Visualize the result
+    #print chart
     show(p)
     
     
