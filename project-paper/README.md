@@ -14,8 +14,8 @@ Compiling the report
 --------------------
 
 There is a Makefile in the directory and if you have LaTeX
-properly installed you can use it from commandline to create the
-report.pdf for my term paper:
+properly installed you can use it from commandline (after cloning this repo)
+to create the report.pdf for my term paper:
 
     make
 
