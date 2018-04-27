@@ -25,6 +25,6 @@ repository to avoid penalty.
 Additional packages
 ------------------------
 
-No additional packages was used for in writing this term paper.
+No additional packages was used in writing this term paper.
 
 
